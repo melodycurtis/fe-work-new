@@ -12,30 +12,52 @@
 
 
 
+  
+  
+
+      <div class="govuk-width-container">
+  <div class="govuk-breadcrumbs">
+    <ol class="govuk-breadcrumbs__list">
+      <li class="govuk-breadcrumbs__list-item">
+        <a class="govuk-breadcrumbs__link" href="#">Home</a>
+      </li>
+      <li class="govuk-breadcrumbs__list-item">
+        <a class="govuk-breadcrumbs__link" href="#">Section</a>
+      </li>
+      <li class="govuk-breadcrumbs__list-item" aria-current="page">Subsection</li>
+    </ol>
+  </div>
+
   <main class="govuk-main-wrapper " id="main-content" role="main">
     <div class="govuk-grid-row">
       <div class="govuk-grid-column-two-thirds">
-        <h1 class="govuk-heading-xl">Learning provider account</h1>
+        <h1 class="govuk-heading-xl">FE staff return</h1>
+        <span class="govuk-caption-xl">August 2019 to September 2020</span><br>
 
         <p class="govuk-body">Use this service to:</p>
 
         <ul class="govuk-list govuk-list--bullet">
-          <li>Add a new provider</li>
-          <li>Edit a provider's details</li>
-          <li>Terminate a provider</li>
+          <li>tell us about your workforce</li>
+          <li>update your name, address or other details</li>
+          <li>do something else</li>
         </ul>
 
-        <p class="govuk-body">.</p>
+        <p class="govuk-body">Registering takes around 5 minutes.</p>
 
-        <a href="details" role="button" draggable="false" class="govuk-button govuk-button--start govuk-!-margin-top-2 govuk-!-margin-bottom-8">
+        <a href="#" role="button" draggable="false" class="govuk-button govuk-!-margin-top-2 govuk-!-margin-bottom-8 govuk-button--start" data-module="govuk-button">
           Start now
+          <svg class="govuk-button__start-icon" xmlns="http://www.w3.org/2000/svg" width="17.5" height="19" viewBox="0 0 33 40" role="presentation" focusable="false">
+            <path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z" />
+          </svg>
         </a>
 
         <h2 class="govuk-heading-m">Before you start</h2>
 
-        <p class="govuk-body">You can also register by post.</p>
+        <p class="govuk-body">You can also <a class="govuk-link" href="#">register by post</a>.</p>
 
-        <p class="govuk-body">You can’t register for this service if you’re in the UK illegally.</p>
+        <p class="govuk-body">The online service is also available in <a class="govuk-link" href="#">Welsh (Cymraeg)</a>.</p>
+
+        <p class="govuk-body">You cannot register for this service if you’re in the UK illegally.</p>
       </div>
 
       <div class="govuk-grid-column-one-third">
@@ -60,8 +82,7 @@
               </li>
               <li>
                 <a href="#" class="govuk-link govuk-!-font-weight-bold">
-                  More
-                  <span class="govuk-visually-hidden">in Subsection</span>
+                  More <span class="govuk-visually-hidden">in Subsection</span>
                 </a>
               </li>
             </ul>
@@ -70,11 +91,7 @@
 
       </div>
     </div>
-  
-</div>
+  </main>
 
-</div>
-
-    </main>
 
 {% endblock %}
