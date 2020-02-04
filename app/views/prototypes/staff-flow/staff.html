@@ -1,9 +1,16 @@
 {% extends "layout.html" %}
 
 {% block page_title %}
-  GOV.UK prototype kit
+  FE staff data collection
 {% endblock %}
 {% block beforeContent %}
+
+{{ govukPhaseBanner({
+  tag: {
+    text: "prototype"
+  },
+  html: 'This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.'
+}) }}
   
 
 {% endblock %}
@@ -15,6 +22,7 @@
   <a href="#" class="govuk-back-link">Back</a>
 
   <span class="govuk-caption-xl">Impact Training Limited</span>
+  <span class="govuk-caption-m">UKPRN: 21345671</span>
 
 
   <main class="govuk-main-wrapper " id="main-content" role="main">
