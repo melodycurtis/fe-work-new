@@ -144,6 +144,29 @@ $govuk-assets-path: '/govuk/assets/';
 
 }
 
+.account-info {
+    padding-left: 0;
+    text-align: right;
+    font-size: 14px;
+    line-height: 1.1428571429;
+    padding: 1em 0 0 0;
+    margin-bottom: 0;
+    /border-bottom: 1px solid #BFC1C3;/
+}
+@media (min-width: 641px) {
+    .account-info {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+}
+.account-info .your-name {
+    padding: 0 .5em;
+}
+.govuk-main-wrapper--auto-spacing:first-child,
+  .govuk-main-wrapper--l {
+    padding-top: 0 !important;
+  }
+
 .second-group {
   a {
     min-height: auto;
