@@ -19,67 +19,36 @@
   <h1 class="govuk-heading-m">John Vincent Adams
   <span class="govuk-caption-m">Impact Training Limited</span></h1>
 
-  <main class="govuk-main-wrapper " id="main-content" role="main">
-    
-        
-          <div class="govuk-form-group">
-  <fieldset class="govuk-fieldset">
+  <div class="govuk-form-group">
+  <fieldset class="govuk-fieldset" aria-describedby="nationality-hint">
     <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
       <h1 class="govuk-fieldset__heading">
         What is your nationality?
       </h1>
     </legend>
-    <div class="govuk-radios">
-      <div class="govuk-radios__item">
-        <input class="govuk-radios__input" id="ethnic-group" name="ethnic-group" type="radio" value="asian-or-asian-british" aria-describedby="ethnic-group-item-hint">
-        <label class="govuk-label govuk-radios__label govuk-label--s" for="ethnic-group">
-          Something
+    <span id="nationality-hint" class="govuk-hint">
+      If you have dual nationality, select all options that are relevant to you.
+    </span>
+    <div class="govuk-checkboxes">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality" name="nationality" type="checkbox" value="british" aria-describedby="nationality-item-hint">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality">
+          British
         </label>
-        <span id="ethnic-group-item-hint" class="govuk-hint govuk-radios__hint">
-          Includes Bangladeshi, Chinese, Indian, Pakistani
+        <span id="nationality-item-hint" class="govuk-hint govuk-checkboxes__hint">
+          including English, Scottish, Welsh and Northern Irish
         </span>
       </div>
-      <div class="govuk-radios__item">
-        <input class="govuk-radios__input" id="ethnic-group-2" name="ethnic-group" type="radio" value="black-african-black-british-or-caribbean" aria-describedby="ethnic-group-2-item-hint">
-        <label class="govuk-label govuk-radios__label govuk-label--s" for="ethnic-group-2">
-          Something
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality-2" name="nationality" type="checkbox" value="irish">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality-2">
+          Irish
         </label>
-        <span id="ethnic-group-2-item-hint" class="govuk-hint govuk-radios__hint">
-          Includes any Black background
-        </span>
       </div>
-      <div class="govuk-radios__item">
-        <input class="govuk-radios__input" id="ethnic-group-3" name="ethnic-group" type="radio" value="mixed-or-multiple-ethnic-groups" aria-describedby="ethnic-group-3-item-hint">
-        <label class="govuk-label govuk-radios__label govuk-label--s" for="ethnic-group-3">
-          Something
-        </label>
-        <span id="ethnic-group-3-item-hint" class="govuk-hint govuk-radios__hint">
-          Includes any Mixed background
-        </span>
-      </div>
-      <div class="govuk-radios__item">
-        <input class="govuk-radios__input" id="ethnic-group-4" name="ethnic-group" type="radio" value="white" aria-describedby="ethnic-group-4-item-hint">
-        <label class="govuk-label govuk-radios__label govuk-label--s" for="ethnic-group-4">
-          Something
-        </label>
-        <span id="ethnic-group-4-item-hint" class="govuk-hint govuk-radios__hint">
-          Includes any White background
-        </span>
-      </div>
-      <div class="govuk-radios__item">
-        <input class="govuk-radios__input" id="ethnic-group-5" name="ethnic-group" type="radio" value="another-ethnic-group" aria-describedby="ethnic-group-5-item-hint">
-        <label class="govuk-label govuk-radios__label govuk-label--s" for="ethnic-group-5">
-          Something
-        </label>
-        <span id="ethnic-group-5-item-hint" class="govuk-hint govuk-radios__hint">
-          Includes any other ethnic group, for example, Arab
-        </span>
-      </div>
-      <div class="govuk-radios__divider">or</div>
-      <div class="govuk-radios__item">
-        <input class="govuk-radios__input" id="ethnic-group-7" name="ethnic-group" type="radio" value="prefer-not-to-say">
-        <label class="govuk-label govuk-radios__label govuk-label" for="ethnic-group-7">
-          Prefer not to say
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality-3" name="nationality" type="checkbox" value="other">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality-3">
+          Citizen of another country
         </label>
       </div>
     </div>
