@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  
+
+{% endblock %}
+
+{% block content %}
+
+
+        <div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+      <a href="#" class="govuk-back-link">Back</a>
+ 
+
+  <h1 class="govuk-heading-m">John Vincent Adams
+  <span class="govuk-caption-m">Impact Training Limited</span></h1><br>
+
+  <div class="govuk-form-group">
+  <fieldset class="govuk-fieldset" aria-describedby="nationality-hint">
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+      <h1 class="govuk-fieldset__heading">
+        What is your nationality?
+      </h1>
+    </legend>
+    <span id="nationality-hint" class="govuk-hint">
+      If you have dual nationality, select all options that are relevant to you.
+    </span>
+    <div class="govuk-checkboxes">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality" name="nationality" type="checkbox" value="british" aria-describedby="nationality-item-hint">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality">
+          British
+        </label>
+        <span id="nationality-item-hint" class="govuk-hint govuk-checkboxes__hint">
+          including English, Scottish, Welsh and Northern Irish
+        </span>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality-2" name="nationality" type="checkbox" value="irish">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality-2">
+          Irish
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality-3" name="nationality" type="checkbox" value="other">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality-3">
+          Citizen of another country
+        </label>
+      </div>
+    </div>
+  </fieldset>
+</div>
+
+
+          <a href="answers-staff" class="govuk-button show-continue" style="display: inline;">
+      Save and continue
+    </a>
+       
+      </div>
+    </div>
+  </main>
+</div>
+
+
+{% endblock %}
