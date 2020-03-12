@@ -7,4 +7,19 @@ if (window.console && window.console.info) {
 
 $(document).ready(function () {
   window.GOVUKFrontend.initAll()
+
+
+  $("#choice-button").bind("click", function() {
+    if ($('#radio-1').is(':checked')) {
+                    window.location.replace("current-dle.html");
+                }
+                else if ($('#radio-2').is(':checked')) {
+                    window.location.replace("add-staff");
+                }
+                else if ($('#radio-3').is(':checked')) {
+                    window.location.replace("upload");
+                }
+                
+  });
+
 })
