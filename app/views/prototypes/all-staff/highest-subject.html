@@ -11,7 +11,7 @@
 {% block content %}
 
 
-        <div class="govuk-width-container">
+        
   <a href="#" class="govuk-back-link">Back</a>
 
   <span class="govuk-caption-xl">John Vincent Adams </span><br>
@@ -22,15 +22,15 @@
 
 
 <div class="govuk-form-group">
-  <fieldset class="govuk-fieldset" aria-describedby="sign-in-hint">
+  <fieldset class="govuk-fieldset" aria-describedby="waste-hint">
     <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
       <h1 class="govuk-fieldset__heading">
-        What's their highest qualification in English?
+        What's their highest qualification in the subject they teach?
       </h1>
-    </legend>
-    <!--<span id="sign-in-hint" class="govuk-hint">
-      You’ll need an account to prove your identity and complete your Self Assessment.
-    </span>--><br>
+    </legend><br>
+    <span id="waste-hint" class="govuk-hint">
+      Hint text gives examples
+    </span><br>
     <div class="govuk-radios">
       
       </div>
@@ -40,8 +40,7 @@
           Level 2
         </label>
         <span id="sign-in-2-item-hint" class="govuk-hint govuk-radios__hint">
-          GCSE grade A* - C or equivalent
-        </span>
+          GCSEs/functional skills</span>
       </div>
 
        <div class="govuk-radios__item">
@@ -50,7 +49,7 @@
           Level 3
         </label>
         <span id="sign-in-item-hint" class="govuk-hint govuk-radios__hint">
-          A Level or equivalent
+          A Levels/OCR nationals
         </span>
       </div>
 
@@ -59,6 +58,9 @@
         <label class="govuk-label govuk-radios__label govuk-label--s" for="sign-in">
           Level 4
         </label>
+        <span id="sign-in-item-hint" class="govuk-hint govuk-radios__hint">
+          Certificate of Higher Education, BTech professional diplomas
+        </span>
         
       </div>
 
@@ -67,6 +69,9 @@
         <label class="govuk-label govuk-radios__label govuk-label--s" for="sign-in">
           Level 5
         </label>
+        <span id="sign-in-item-hint" class="govuk-hint govuk-radios__hint">
+          Foundation degree, HNC/HND
+        </span>
         
       </div>
 
@@ -76,7 +81,7 @@
           Level 6
         </label>
         <span id="sign-in-item-hint" class="govuk-hint govuk-radios__hint">
-          Degree or equivalent
+          Bachelors degree, BTech professional diplomas
         </span>
       </div>
 
@@ -86,7 +91,17 @@
           Level 7
         </label>
         <span id="sign-in-item-hint" class="govuk-hint govuk-radios__hint">
-          Post graduate or equivalent
+          Masters degree, NVQ Level 5
+        </span>
+      </div>
+
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="sign-in" name="sign-in" type="radio" value="government-gateway" aria-describedby="sign-in-item-hint">
+        <label class="govuk-label govuk-radios__label govuk-label--s" for="sign-in">
+          Level 8
+        </label>
+        <span id="sign-in-item-hint" class="govuk-hint govuk-radios__hint">
+          Doctorates, award, certificate diploma in strategic direction
         </span>
       </div>
 
@@ -98,28 +113,22 @@
         
       </div>
 
-       <div class="govuk-radios__item">
-        <input class="govuk-radios__input" id="sign-in" name="sign-in" type="radio" value="government-gateway" aria-describedby="sign-in-item-hint">
-        <label class="govuk-label govuk-radios__label govuk-label--s" for="sign-in">
-          Don't know
-        </label>
-        
-      </div>
+       
     </div>
   </fieldset>
 </div>
 </div>
 
-<br>
+<br><br>
 
 
-          <a href="subject-type" class="govuk-button show-continue" style="display: inline;">
+          <a href="teaching-qualification" class="govuk-button show-continue" style="display: inline;">
       Continue
     </a>
        
       </div>
     </div>
-  </main>
+  
 </div>
 
 
