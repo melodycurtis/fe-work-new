@@ -35,7 +35,7 @@
   <label class="govuk-label" for="full-name">
     First names
   </label>
-  <input class="govuk-input" id="full-name" name="full-name" type="text" autocomplete="name" spellcheck="false">
+  <input class="govuk-input" id="first-names" name="first-names" type="text" autocomplete="name" spellcheck="false">
 </div>
 
   
@@ -155,52 +155,79 @@
       <div class="govuk-radios__item">
         <input class="govuk-radios__input" id="ethnic-group" name="ethnic-group" type="radio" value="asian-or-asian-british" aria-describedby="ethnic-group-item-hint">
         <label class="govuk-label govuk-radios__label govuk-label--s" for="ethnic-group">
-          Asian or Asian British
+          White
         </label>
         <span id="ethnic-group-item-hint" class="govuk-hint govuk-radios__hint">
-          Includes any Asian background, for example, Bangladeshi, Chinese, Indian, Pakistani
+          <ul class="govuk-list govuk-list--bullet">
+      <li>English / Welsh / Scottish / Northern Irish / British
+      </li>
+
+      <li>Irish</li>
+
+      <li>Gypsy or Irish Traveller</li>
+
+      <li>Any other White background</li>
+
+    </ul>
         </span>
       </div>
       <div class="govuk-radios__item">
         <input class="govuk-radios__input" id="ethnic-group-2" name="ethnic-group" type="radio" value="black-african-black-british-or-caribbean" aria-describedby="ethnic-group-2-item-hint">
         <label class="govuk-label govuk-radios__label govuk-label--s" for="ethnic-group-2">
-          Black, African, Black British or Caribbean
+          Mixed / Multiple ethnic groups
         </label>
         <span id="ethnic-group-2-item-hint" class="govuk-hint govuk-radios__hint">
-          Includes any Black background
-        </span>
+          <ul class="govuk-list govuk-list--bullet">
+          <li>White and Black Caribbean</li>
+<li>White and Black African</li>
+<li>White and Asian</li>
+<li>Any other Mixed / Multiple ethnic background</li>
+        </ul></span>
       </div>
       <div class="govuk-radios__item">
         <input class="govuk-radios__input" id="ethnic-group-3" name="ethnic-group" type="radio" value="mixed-or-multiple-ethnic-groups" aria-describedby="ethnic-group-3-item-hint">
         <label class="govuk-label govuk-radios__label govuk-label--s" for="ethnic-group-3">
-          Mixed or multiple ethnic groups
+          Asian / Asian British
         </label>
         <span id="ethnic-group-3-item-hint" class="govuk-hint govuk-radios__hint">
-          Includes any Mixed background
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Indian</li>
+<li>Pakistani</li>
+<li>Bangladeshi</li>
+<li>Any other Asian background</li>
+        </ul>
         </span>
       </div>
       <div class="govuk-radios__item">
         <input class="govuk-radios__input" id="ethnic-group-4" name="ethnic-group" type="radio" value="white" aria-describedby="ethnic-group-4-item-hint">
         <label class="govuk-label govuk-radios__label govuk-label--s" for="ethnic-group-4">
-          White
+          Black / African / Caribbean / Black British
         </label>
         <span id="ethnic-group-4-item-hint" class="govuk-hint govuk-radios__hint">
-          Includes any White background
+          <ul class="govuk-list govuk-list--bullet">
+          <li>African</li>
+<li>Caribbean</li>
+
+<li>Any other Black / African / Caribbean background</li>
+        </ul>
         </span>
       </div>
       <div class="govuk-radios__item">
         <input class="govuk-radios__input" id="ethnic-group-5" name="ethnic-group" type="radio" value="another-ethnic-group" aria-describedby="ethnic-group-5-item-hint">
         <label class="govuk-label govuk-radios__label govuk-label--s" for="ethnic-group-5">
-          Another ethnic group
+          Other ethnic group
         </label>
         <span id="ethnic-group-5-item-hint" class="govuk-hint govuk-radios__hint">
-          Includes any other ethnic group, for example, Arab
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Arab</li>
+          <li>Any other ethnic group</li>
+        </ul>
         </span>
       </div>
       <div class="govuk-radios__divider">or</div>
       <div class="govuk-radios__item">
-        <input class="govuk-radios__input" id="ethnic-group-7" name="ethnic-group" type="radio" value="prefer-not-to-say">
-        <label class="govuk-label govuk-radios__label govuk-label" for="ethnic-group-7">
+        <input class="govuk-radios__input" id="ethnic-group-6" name="ethnic-group" type="radio" value="prefer-not-to-say">
+        <label class="govuk-label govuk-radios__label govuk-label" for="ethnic-group-6">
           Prefer not to say
         </label>
       </div>
@@ -209,12 +236,13 @@
 
   <br><br><br>
 
+
   <fieldset class="govuk-fieldset">
     <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
       <h2 class="govuk-heading-m">Disability</h2>
     </legend>
-    <span id="nationality-hint" class="govuk-hint">
-       May be a self-reported long-standing illness, condition or impairment which causes difficulty with day-to-day activities. 
+     <span id="nationality-hint" class="govuk-hint">
+       A person is considered to have a disability if they have a self-reported long-standing illness, condition or impairment which causes difficulty with day-to-day activities. 
     </span>
     <div class="govuk-radios">
       <div class="govuk-radios__item">
@@ -259,7 +287,7 @@
     </legend>
     
     <span id="nationality-hint" class="govuk-hint">
-      If you have dual nationality, select all options that are relevant to you.
+      If they have dual nationality, select all options that are relevant.
     </span>
     <div class="govuk-checkboxes">
 
@@ -327,7 +355,7 @@
       <div class="govuk-checkboxes__conditional govuk-checkboxes__conditional--hidden" id="conditional-citizenship-conditional">
         <div class="govuk-form-group">
           <label class="govuk-label" for="contact-by-email">
-            Discribe
+            Discribe 
           </label>
           <input class="govuk-input govuk-!-width-one-third" id="contact-by-email" name="contact-by-email" type="email" spellcheck="false">
         </div>
@@ -341,10 +369,15 @@
 
   
 
-  </fieldset><br><br><br>
+  </fieldset>
+</div>
+</div>
 
 
-          <a href="list-staff-nil" class="govuk-button show-continue" style="display: inline;">
+  <br><br><br>
+
+
+          <a href="staff-zero" class="govuk-button show-continue" style="display: inline;">
       Save and continue
     </a>
        
