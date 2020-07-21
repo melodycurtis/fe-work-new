@@ -9,29 +9,22 @@
     <strong class="govuk-tag govuk-phase-banner__content__tag">
       prototype
     </strong>
-    <span class="govuk-phase-banner__text">
-      This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
-    </span>
+    
   </p>
 </div>
-
- 
-  <a href="#" class="govuk-back-link">Back</a>
+<a href="#" class="govuk-back-link">Back</a>
 
 {% endblock %}
 
-{% block content %}
-
-
-        <div class="govuk-width-container">
-  
+{% block content %} 
+<div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">    
 
   <h1 class="govuk-heading-m">Impact Training Limited
   <span class="govuk-caption-m">UKPRN: 00012345</span></h1>
 
   
-    <div class="govuk-grid-row">
-      <div class="govuk-grid-column-two-thirds">
+    
         
           <div class="govuk-form-group">
 
@@ -43,49 +36,49 @@
 <p>
   Include roles filled with tempoary staff but not agency workers.
 Include part-time staff.
-</p><br>
-
-  <div class="govuk-form-group">
-    <label class="govuk-label" for="managers">
-      Managers
-    </label>
-    <span id="sort-code-hint" class="govuk-hint">
-          Principals, vice-principals, working directors, CEOs
-        </span>
-    <input class="govuk-input govuk-input--width-10" id="address-postcode" name="address-postcode" type="text">
-  </div>
-
-
-  <div class="govuk-form-group">
-    <label class="govuk-label" for="teachers">
-      Teachers, tutors, trainers and instructors
-    </label>
-   <span id="sort-code-hint" class="govuk-hint">
-          Staff who teach as part of their role
-        </span>
-    <input class="govuk-input govuk-input--width-10" id="" name="" type="text">
-  </div>
-
-
-  <div class="govuk-form-group">
-    <label class="govuk-label" for="support">
-      Support
-    </label>
-<span id="sort-code-hint" class="govuk-hint">
-          Mentors, assessors, technicians, teaching assistants
-        </span>
-
-    <input class="govuk-input govuk-input--width-10" id="" name="" type="text">
-  </div>
+</p>
 
 
 
-</fieldset><br><br>
+  <ul class="browse-list">
+    
+      <li class="browse-list-item">
+        <a class="browse-list-item-link" href="answers-staff">Managers</a>
+        <p class="browse-list-item-subtext">
+            Principals, vice-principals, working directors, CEOs<a href="#"></a>
+          </p>
+          <input class="govuk-input govuk-input--width-10" id="address-postcode" name="address-postcode" type="text"> 
+        
+      </li>
+    
+      <li class="browse-list-item">
+        <a class="browse-list-item-link" href="role">Teachers</a>
+        
+        
+          <p class="browse-list-item-subtext">
+            Staff who teach as part of their role<a href="#"></a>
+          </p>
+          <input class="govuk-input govuk-input--width-10" id="address-postcode" name="address-postcode" type="text">
+        
+        
+      </li>
+    
+      <li class="browse-list-item">
+        <a class="browse-list-item-link" href="#nope">Support</a>
 
+        <p class="browse-list-item-subtext">
+            Mentors, assessors, technicians, teaching assistants<a href="#"></a>
+          </p>
+           <input class="govuk-input govuk-input--width-10" id="address-postcode" name="address-postcode" type="text">
+        
+      </li>
+    
+  </ul>
+</div><br>
 
           <a href="many-vacancies" class="govuk-button show-continue" style="display: inline;">
       Save and continue
-    </a>
+    </a><br>
        
       </div>
     </div>
