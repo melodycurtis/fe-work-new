@@ -1,0 +1,93 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  
+
+{% endblock %}
+
+{% block content %}
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+      <a href="#" class="govuk-back-link">Back</a>
+ 
+
+  <h1 class="govuk-heading-m">Impact Training Limited
+  <span class="govuk-caption-m">UKPRN: 00012345</span></h1>
+
+  
+        
+          <div class="govuk-form-group">
+
+            <h1 class="govuk-heading-xl">
+  About your organisation
+</h1>
+
+  <div class="govuk-form-group">
+  <fieldset class="govuk-fieldset" aria-describedby="citizenship-conditional-hint">
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+      <h2 class="govuk-heading-l">
+        How many vacant teaching posts do you have?</h2>
+    </legend>
+
+    <div class="govuk-inset-text">
+  Include vacancies filled by agency staff
+</div>
+  
+    <div class="govuk-form-group">
+    <label class="govuk-label" for="address-postcode">
+      Add the number of posts vacant on 1 September 2020
+    </label>
+    <input class="govuk-input govuk-input--width-10" id="address-postcode" name="address-postcode" type="text">
+  </div>
+
+</div><br><br><p></p>
+
+
+      <h2 class="govuk-heading-l">
+        Did you have posts that were difficult to fill this year?</h2>
+    </legend>
+</div>
+
+<div class="govuk-form-group">
+  <fieldset class="govuk-fieldset" aria-describedby="changed-name-hint">
+    
+    <span id="changed-name-hint" class="govuk-hint">
+      1 September 2020 - 31 August 2021
+    </span>
+    <div class="govuk-radios govuk-radios--inline">
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="changed-name" name="changed-name" type="radio" value="yes">
+        <label class="govuk-label govuk-radios__label" for="changed-name">
+          Yes
+        </label>
+      </div>
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="changed-name-2" name="changed-name" type="radio" value="no">
+        <label class="govuk-label govuk-radios__label" for="changed-name-2">
+          No
+        </label>
+      </div>
+    </div>
+  </fieldset>
+</div>
+
+
+</fieldset>
+
+
+          <a href="staff" class="govuk-button show-continue" style="display: inline;">
+      Save and continue
+    </a>
+       
+ </div>
+</div>
+        
+
+
+
+{% endblock %}

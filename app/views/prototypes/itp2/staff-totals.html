@@ -1,0 +1,91 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      prototype
+    </strong>
+    
+  </p>
+</div>
+<a href="#" class="govuk-back-link">Back</a>
+
+{% endblock %}
+
+{% block content %} 
+<div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">    
+
+  <h1 class="govuk-heading-m">Impact Training Limited
+  <span class="govuk-caption-m">UKPRN: 00012345</span></h1>
+        
+          <div class="govuk-form-group">
+
+            <h1 class="govuk-heading-xl">
+  How many staff did you employ in the 2020/2021 academic year?
+</h1>
+
+            
+<p>
+  Include roles filled with tempoary staff but not agency workers.
+Include part-time staff.
+</p>
+
+
+
+  <ul class="browse-list">
+    
+      <li class="browse-list-item">
+       <h2 class="govuk-heading-m govuk-!-font-size-27 govuk-!-margin-bottom-2">Managers</h2>
+        <p class="browse-list-item-subtext">
+            Senior and middle managers, principals, vice-principals, working directors, CEOs</p>
+          <input class="govuk-input govuk-input--width-10" id="address-postcode" name="address-postcode" type="text">
+      </li><br>
+    
+      <li class="browse-list-item">
+        <h2 class="govuk-heading-m govuk-!-font-size-27 govuk-!-margin-bottom-2">Teachers</h2>
+        
+        
+          <p class="browse-list-item-subtext">
+            Staff who teach or train as the main part of their job</p>
+          <input class="govuk-input govuk-input--width-10" id="address-postcode" name="address-postcode" type="text">
+      </li><br>
+    
+      <li class="browse-list-item">
+        <h2 class="govuk-heading-m govuk-!-font-size-27 govuk-!-margin-bottom-2">Support</h2>
+
+        <p class="browse-list-item-subtext">
+            Mentors, assessors, technicians, teaching assistants or anyone in a learning support role
+          </p>
+           <input class="govuk-input govuk-input--width-10" id="address-postcode" name="address-postcode" type="text">
+        
+      </li><br>
+
+      <li class="browse-list-item">
+        <h2 class="govuk-heading-m govuk-!-font-size-27 govuk-!-margin-bottom-2">Apprentices</h2>
+
+        <p class="browse-list-item-subtext">
+            Apprentices employed under an apprenticeship contract
+          </p>
+           <input class="govuk-input govuk-input--width-10" id="address-postcode" name="address-postcode" type="text">
+        
+      </li>
+    
+  </ul>
+</div><br><br>
+
+          <a href="cpd" class="govuk-button show-continue" style="display: inline;">
+      Save and continue
+    </a><br>
+       
+      </div>
+    </div>
+ 
+</div>
+
+
+{% endblock %}
