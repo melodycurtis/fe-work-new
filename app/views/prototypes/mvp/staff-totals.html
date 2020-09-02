@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      prototype
+    </strong>
+    
+  </p>
+</div>
+<a href="#" class="govuk-back-link">Back</a>
+
+{% endblock %}
+
+{% block content %} 
+<div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">    
+
+  <h1 class="govuk-heading-m">Impact Training Limited
+  <span class="govuk-caption-m">UKPRN: 00012345</span></h1>
+        
+          <div class="govuk-form-group">
+
+            <h1 class="govuk-heading-xl">
+  How many staff did you employ in the 2020/2021 academic year?
+</h1>
+
+            
+<p>
+  Tell us about any full-time, part-time or temporary staff. 
+</p>
+
+
+
+<form action="/form-handler" method="post" novalidate>
+  <div class="govuk-form-group">
+    
+    <input class="govuk-input govuk-input--width-10" id="postcode" name="postcode" type="text" (£)>
+  </div>
+
+  
+</form>
+</div><br>
+
+          <a href="apprentices" class="govuk-button show-continue" style="display: inline;">
+      Continue
+    </a><br>
+       
+      </div>
+    </div>
+ 
+</div>
+
+
+{% endblock %}
