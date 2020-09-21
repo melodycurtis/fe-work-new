@@ -31,34 +31,61 @@
   <div class="govuk-grid-row">
       <div class="govuk-grid-column-two-thirds">
 
-<div class="govuk-form-group">
-  <fieldset class="govuk-fieldset">
-    <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
-      <h1 class="govuk-fieldset__heading">
-        Why were these subjects difficult to find teachers for?
+        <div class="govuk-form-group">
+          <fieldset class="govuk-fieldset" aria-describedby="citizenship-conditional-hint">
+            <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+              <h1 class="govuk-fieldset__heading">
+                Why were these subjects difficult to find teachers for?
+              </h1>
+            </legend>
+            <div id="citizenship-conditional-hint" class="govuk-hint">
+              Select all options that are relevant.
+            </div>
+            <div class="govuk-checkboxes" data-module="govuk-checkboxes">
+              <div class="govuk-checkboxes__item">
+                <input class="govuk-checkboxes__input" id="citizenship-conditional" name="citizen" type="checkbox" value="email" data-aria-controls="conditional-citizenship-conditional">
+                <label class="govuk-label govuk-checkboxes__label" for="citizenship-conditional">
+                  No experienced candidates
+                </label>
+              </div>
+              
+              <div class="govuk-checkboxes__item">
+                <input class="govuk-checkboxes__input" id="citizenship-conditional-2" name="citizen" type="checkbox" value="phone" data-aria-controls="conditional-citizenship-conditional-2">
+                <label class="govuk-label govuk-checkboxes__label" for="citizenship-conditional-2">
+                  No suitably qualified candidates
+                </label>
+              </div>
+              
 
-      </h1>
-    </legend><br>
+              <div class="govuk-checkboxes__item">
+                <input class="govuk-checkboxes__input" id="citizenship-conditional-2" name="citizen" type="checkbox" value="phone" data-aria-controls="conditional-citizenship-conditional-2">
+                <label class="govuk-label govuk-checkboxes__label" for="citizenship-conditional-2">
+                  The salary we offer isn't high enough
+                </label>
+              </div>
+            
+              <div class="govuk-checkboxes__item">
+                <input class="govuk-checkboxes__input" id="citizenship-conditional-3" name="citizen" type="checkbox" value="text message" data-aria-controls="conditional-citizenship-conditional-3">
+                <label class="govuk-label govuk-checkboxes__label" for="citizenship-conditional-3">
+                  Other
+                </label>
+              </div>
+              <div class="govuk-checkboxes__conditional govuk-checkboxes__conditional--hidden" id="conditional-citizenship-conditional-3">
+                <div class="govuk-form-group">
+                  <label class="govuk-label" for="contact-by-text">
+                    Tell us why
+                  </label>
+                  <input class="govuk-input govuk-!-width-one-third" id="contact-by-text" name="contact-by-text" type="tel"></div>
+        
+              </div>
+            </div>
+        
+          </fieldset>
+        </div>
 
-    <div class="govuk-form-group">
-      
-      <p>
-        Hair and Beauty
-      </p>
-      <textarea class="govuk-textarea" id="more-detail" name="more-detail" rows="5" aria-describedby="more-detail-hint"></textarea>
-    </div><br>
 
-    <div class="govuk-form-group">
-      
-      <p>
-        Construction
-      </p>
-      <textarea class="govuk-textarea" id="more-detail" name="more-detail" rows="5" aria-describedby="more-detail-hint"></textarea>
-    </div>
- 
-
-</fieldset>
-</div>
+  
+  
 
           <a href="answers-provider.html" class="govuk-button show-continue" style="display: inline;">
       Continue
