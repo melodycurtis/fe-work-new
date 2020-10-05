@@ -11,10 +11,10 @@ $(document).ready(function () {
 
   $("#choice-button").bind("click", function() {
     if ($('#radio-1').is(':checked')) {
-                    window.location.replace("current-dle.html");
+                    window.location.replace("add");
                 }
                 else if ($('#radio-2').is(':checked')) {
-                    window.location.replace("add-staff");
+                    window.location.replace("template");
                 }
                 else if ($('#radio-3').is(':checked')) {
                     window.location.replace("upload");
