@@ -1,0 +1,148 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      prototype
+    </strong>
+    <span class="govuk-phase-banner__text">
+      This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+    </span>
+  </p>
+</div>
+
+{% endblock %}
+
+{% block content %}
+
+
+        
+  <h1 class="govuk-heading-m">Impact Training Limited
+  <span class="govuk-caption-m">UKPRN: 00012345</span></h1>   <br>  
+
+  
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+
+        <h1 class="govuk-heading-xl">John Adams</h1>
+
+      
+
+        <dl class="govuk-summary-list govuk-!-margin-bottom-9">
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+            
+            </dt>
+            
+            <dd class="govuk-summary-list__actions">
+              <a class="govuk-link" href="#">
+                <span class="govuk-visually-hidden"> name</span>
+              </a>
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              <h3 class="govuk-heading-m govuk-!-margin-bottom-3">
+                <a href="answers-staff" class="govuk-link govuk-link--no-visited-state">
+                  Personal
+                </a></h3>
+                <!--<p>
+                  Date of Birth: 18 August 1992<br>
+                Sex: Male<br>
+                Ethnicity: White<br>
+                Disability: No<BR>
+              Nationality: English</p>-->
+            </dt>
+            
+            <dd class="govuk-summary-list__actions">
+              <strong class="govuk-tag app-task-list__task-completed" id="eligibility-completed">Completed</strong>
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              <h3 class="govuk-heading-m govuk-!-margin-bottom-3">
+                <h3 class="govuk-heading-m govuk-!-margin-bottom-3">
+                  <a href="role" class="govuk-link govuk-link--no-visited-state">
+                    Teaching</a></h3>
+                   <!--<p>
+                      18 August 1992<br>
+                    Male<br>
+                    White<br>
+                  English</p>-->
+            </dt>
+           
+            <dd class="govuk-summary-list__actions">
+              <strong class="govuk-tag govuk-tag--grey" id="contact-details-status">not started</strong></td>
+            </dd>
+          </div>
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              <h3 class="govuk-heading-m govuk-!-margin-bottom-3">
+                <a href="what-contract" class="govuk-link govuk-link--no-visited-state">
+                  Contract</a></h3>
+                  <!--<p>
+                    18 August 1992<br>
+                  Male<br>
+                  White<br>
+                English</p>-->
+            </dt>
+            
+            <dd class="govuk-summary-list__actions">
+              <strong class="govuk-tag govuk-tag--grey" id="contact-details-status">not started</strong></td>
+            </dd>
+          </div>
+        </dl>
+
+       
+
+      
+
+        
+
+        
+        <form action="/form-handler" method="post" novalidate>
+
+          
+          <input type="hidden" name="answers-checked" value="true">
+
+          <a href="list-staff-john" class="govuk-button show-continue" style="display: inline;">
+      Staff list
+    </a>
+
+          
+
+        </form>
+
+      
+       
+
+       
+       
+
+
+
+
+        
+
+        
+
+
+        
+
+      
+
+</fieldset><br>
+
+
+        
+      </div>
+    </div>
+  </main>
+</div>
+
+
+{% endblock %}
