@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      prototype
+    </strong>
+    <span class="govuk-phase-banner__text">
+      This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+    </span>
+  </p>
+</div>
+
+ 
+  <a href="#" class="govuk-back-link">Back</a>
+
+{% endblock %}
+
+{% block content %}
+
+
+
+
+<div class="govuk-width-container">
+ 
+
+  <span class="govuk-caption-xl">John Adams </span>
+
+  <main class="govuk-main-wrapper " id="main-content" role="main">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <form action="/form-handler" method="post" novalidate>
+          <div class="govuk-form-group">
+            <h1 class="govuk-label-wrapper"><label class="govuk-label govuk-label--xl" for="postcode">
+                What is their gross annual salary?
+              </label><br>
+              <span id="sort-code-hint" class="govuk-hint">
+    For example, £26,386
+  </span>
+
+            </h1>
+            <input class="govuk-input govuk-input--width-10" id="postcode" name="postcode" type="text" (£)>
+          </div>
+
+          <a href="contracted-hours" class="govuk-button show-continue" style="display: inline;">
+      Continue
+    </a>
+        </form>
+      </div>
+    </div>
+  </main>
+</div>
+
+
+
+
+          
+       
+      </div>
+    </div>
+  </main>
+</div>
+
+
+{% endblock %}
