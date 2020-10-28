@@ -4,8 +4,7 @@
   GOV.UK prototype kit
 {% endblock %}
 {% block beforeContent %}
-  
-<div class="govuk-phase-banner">
+  <div class="govuk-phase-banner">
   <p class="govuk-phase-banner__content">
     <strong class="govuk-tag govuk-phase-banner__content__tag">
       prototype
@@ -16,15 +15,16 @@
   </p>
 </div>
 
- 
+ <div class="govuk-width-container">
   <a href="#" class="govuk-back-link">Back</a>
+
 {% endblock %}
 
 {% block content %}
 
 
-        <div class="govuk-width-container">
- 
+        
+  
 
   <span class="govuk-caption-xl">John Adams </span><br>
 
@@ -33,19 +33,20 @@
             
 
 
- 
-
 <div class="govuk-form-group">
-  <fieldset class="govuk-fieldset" aria-describedby="sign-in-hint">
+  <fieldset class="govuk-fieldset" aria-describedby="waste-hint">
     <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
       <h1 class="govuk-fieldset__heading">
-        What is their highest qualification in Maths?
+        What is the highest qualification they’ve achieved in their main subject?
+
       </h1>
-    </legend>
-    <!--<span id="sign-in-hint" class="govuk-hint">
-      You’ll need an account to prove your identity and complete your Self Assessment.
-    </span>--><br>
+    </legend><br>
+
+    <p>Tell us about the subject they teach the most in a standard working week.
+    </p>
+    
     <div class="govuk-radios">
+      
       
       <div class="govuk-radios__item">
         <input class="govuk-radios__input" id="sign-in-2" name="sign-in" type="radio" value="govuk-verify" aria-describedby="sign-in-2-item-hint">
@@ -53,8 +54,7 @@
           Level 2
         </label>
         <span id="sign-in-2-item-hint" class="govuk-hint govuk-radios__hint">
-          GCSE grade A* - C or equivalent
-        </span>
+          GCSEs/functional skills</span>
       </div>
 
        <div class="govuk-radios__item">
@@ -63,7 +63,7 @@
           Level 3
         </label>
         <span id="sign-in-item-hint" class="govuk-hint govuk-radios__hint">
-          A Level or equivalent
+          A Levels/OCR nationals
         </span>
       </div>
 
@@ -73,7 +73,7 @@
           Level 4
         </label>
         <span id="sign-in-item-hint" class="govuk-hint govuk-radios__hint">
-          Certificate of higher education
+          Certificate of Higher Education, BTech professional diplomas
         </span>
         
       </div>
@@ -84,7 +84,7 @@
           Level 5
         </label>
         <span id="sign-in-item-hint" class="govuk-hint govuk-radios__hint">
-         Foundation degree
+          Foundation degree, HNC/HND
         </span>
         
       </div>
@@ -95,7 +95,7 @@
           Level 6
         </label>
         <span id="sign-in-item-hint" class="govuk-hint govuk-radios__hint">
-          Undergraduate degree or equivalent 
+          Bachelors degree, BTech professional diplomas
         </span>
       </div>
 
@@ -105,27 +105,24 @@
           Level 7
         </label>
         <span id="sign-in-item-hint" class="govuk-hint govuk-radios__hint">
-          Postgraduate degree or equivalent
+          Masters degree, NVQ Level 5
         </span>
       </div>
 
       <div class="govuk-radios__item">
         <input class="govuk-radios__input" id="sign-in" name="sign-in" type="radio" value="government-gateway" aria-describedby="sign-in-item-hint">
         <label class="govuk-label govuk-radios__label govuk-label--s" for="sign-in">
-          Don't know
+          Level 8
         </label>
-
         <span id="sign-in-item-hint" class="govuk-hint govuk-radios__hint">
-          .
+          Doctorates, award, certificate diploma in strategic direction
         </span>
-        </div>
-
-        
+      </div>
 
        <div class="govuk-radios govuk-radios--conditional" data-module="govuk-radios">
       <div class="govuk-radios__item">
-        <input class="govuk-radios__input" id="how-contacted-conditional" name="how-contacted" type="radio" value="" data-aria-controls="conditional-how-contacted-conditional">
-        <label class="govuk-label govuk-radios__label" for="">
+        <input class="govuk-radios__input" id="how-contacted-conditional" name="how-contacted" type="radio" value="email" data-aria-controls="conditional-how-contacted-conditional">
+        <label class="govuk-label govuk-radios__label" for="how-contacted-conditional">
           Other
         </label>
       </div>
@@ -136,22 +133,25 @@
           </label>
           <input class="govuk-input govuk-!-width-one-third" id="contact-by-email" name="contact-by-email" type="email" spellcheck="false">
         </div>
+      </div>
 
        
     </div>
   </fieldset>
 </div>
+</div>
+</div>
 
 <br>
 
 
-          <a href="english" class="govuk-button show-continue" style="display: inline;">
+          <a href="maths" class="govuk-button show-continue" style="display: inline;">
       Continue
     </a>
        
       </div>
     </div>
-  </main>
+  
 </div>
 
 
