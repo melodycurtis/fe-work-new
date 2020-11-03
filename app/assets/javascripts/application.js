@@ -22,4 +22,17 @@ $(document).ready(function () {
                 
   });
 
+  $("#choice-button").bind("click", function() {
+    if ($('#radio-teach1').is(':checked')) {
+                    window.location.replace("academic");
+                }
+                else if ($('#radio-teach2').is(':checked')) {
+                    window.location.replace("vocational");
+                }
+                else if ($('#radio-teach3').is(':checked')) {
+                    window.location.replace("other");
+                }
+                
+  });
+
 })
