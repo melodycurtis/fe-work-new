@@ -40,9 +40,18 @@
 
 
 
-<button class="govuk-button govuk-button--secondary" data-module="govuk-button">
+
+<a href="add-two" class="govuk-button show-continue" style="display: inline;">
   Add a member of staff
-</button><br>
+</a><br><br><br>
+<!--<button class="govuk-button govuk-button--secondary" data-module="govuk-button" href="add-two">
+  Add a member of staff
+</button>-->
+
+
+<br>
+
+<h2 class="govuk-heading-m app-application-cards__heading">Incomplete staff members</h2>
 
        <table class="govuk-table">
 
@@ -77,7 +86,44 @@
 
 
 </tbody>
-</table> 
+</table>
+
+<h2 class="govuk-heading-m app-application-cards__heading">Complete staff members</h2>
+
+<table class="govuk-table">
+
+  <thead class="govuk-table__head">
+  <tr class="govuk-table__row">
+
+  <th class="govuk-table__header" scope="col"></th>
+
+  <th class="govuk-table__header" scope="col"></th>
+  <th class="govuk-table__header" scope="col"></th>
+</tr>
+</thead>
+
+
+
+<tbody class="govuk-table__body">
+<tr class="govuk-table__row">
+
+
+
+<td class="govuk-table__cell" scope="row"><h3 class="govuk-heading-m govuk-!-margin-bottom-1">
+  <a href="complete-john" class="govuk-link govuk-link--no-visited-state">
+    Julie Jones
+  </a>
+</h3>
+    </td>
+<td class="govuk-table__cell" scope="row"> </td>
+<td class="govuk-table__cell"><strong class="govuk-tag app-task-list__task-completed" id="eligibility-completed"></strong></td>
+</tr>
+
+
+
+
+</tbody>
+</table>
  <!--<p class="govuk-table__cell--numeric"><a class="#" href="add-two">Add a member of staff</a> </p><br>
 
           <input type="hidden" name="answers-checked" value="true">
