@@ -1,0 +1,174 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      prototype
+    </strong>
+    <span class="govuk-phase-banner__text">
+      This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+    </span>
+  </p>
+</div>
+
+ <div class="govuk-width-container">
+  <a href="#" class="govuk-back-link">Back</a>
+
+{% endblock %}
+
+{% block content %}
+
+
+
+  <h1 class="govuk-heading-m">Impact Training Limited
+  <span class="govuk-caption-m">UKPRN: 00012345</span></h1>
+
+
+  <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+
+        <div class="govuk-form-group">
+          <fieldset class="govuk-fieldset" aria-describedby="citizenship-conditional-hint">
+            <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+              <h1 class="govuk-fieldset__heading">
+                How long on average did it take to find teachers for the vacancies for these subject levels?
+              </h1>
+            </legend>
+            <!--<div id="citizenship-conditional-hint" class="govuk-hint">
+              Select all options that are relevant.
+            </div>-->
+            
+            <br><br>
+
+            <h2 class="govuk-heading-m govuk-!-font-size-27 govuk-!-margin-bottom-2">English - Level 4</h2>
+            <div class="govuk-form-group">
+                    <fieldset class="govuk-fieldset">
+                      <legend class="govuk-fieldset__legend govuk-fieldset__legend--l"> 
+                      </legend>
+
+
+                      <div class="govuk-radios">
+                        <div class="govuk-radios__item">
+                          <input class="govuk-radios__input" id="teachers" name="teachers" type="radio" value="less">
+                          <label class="govuk-label govuk-radios__label" for="teachers">
+                            Less than one month
+                          </label>
+                        </div>
+                        <div class="govuk-radios__item">
+                          <input class="govuk-radios__input" id="teachers-2" name="teachers" type="radio" value="months">
+                          <label class="govuk-label govuk-radios__label" for="teachers-2">
+                            2 to 3 months
+                          </label>
+                        </div>
+                        <div class="govuk-radios__item">
+                          <input class="govuk-radios__input" id="teachers-3" name="teachers" type="radio" value="four">
+                          <label class="govuk-label govuk-radios__label" for="teachers-3">
+                            4 to 5 months
+                          </label>
+                        </div>
+                        <div class="govuk-radios__item">
+                          <input class="govuk-radios__input" id="teachers-4" name="teachers" type="radio" value="over">
+                          <label class="govuk-label govuk-radios__label" for="teachers-4">
+                            Over 6 months
+                          </label>
+                        </div>
+                      </div>
+                  
+                    </fieldset>
+                  </div>
+                     <br><br>
+
+                     <h2 class="govuk-heading-m govuk-!-font-size-27 govuk-!-margin-bottom-2">English - Level 5</h2>
+            <div class="govuk-form-group">
+                    <fieldset class="govuk-fieldset">
+                      <legend class="govuk-fieldset__legend govuk-fieldset__legend--l"> 
+                      </legend>
+
+
+                      <div class="govuk-radios">
+                        <div class="govuk-radios__item">
+                          <input class="govuk-radios__input" id="teachers" name="teachers" type="radio" value="less">
+                          <label class="govuk-label govuk-radios__label" for="teachers">
+                            Less than one month
+                          </label>
+                        </div>
+                        <div class="govuk-radios__item">
+                          <input class="govuk-radios__input" id="teachers-2" name="teachers" type="radio" value="months">
+                          <label class="govuk-label govuk-radios__label" for="teachers-2">
+                            2 to 3 months
+                          </label>
+                        </div>
+                        <div class="govuk-radios__item">
+                          <input class="govuk-radios__input" id="teachers-3" name="teachers" type="radio" value="four">
+                          <label class="govuk-label govuk-radios__label" for="teachers-3">
+                            4 to 5 months
+                          </label>
+                        </div>
+                        <div class="govuk-radios__item">
+                          <input class="govuk-radios__input" id="teachers-4" name="teachers" type="radio" value="over">
+                          <label class="govuk-label govuk-radios__label" for="teachers-4">
+                            Over 6 months
+                          </label>
+                        </div>
+                      </div>
+                  
+                    </fieldset>
+                  </div>
+                     <br><br>
+
+           
+
+            <h2 class="govuk-heading-m govuk-!-font-size-27 govuk-!-margin-bottom-2">Business Administration - Level 3</h2><br>
+            <div class="govuk-radios">
+              <div class="govuk-radios__item">
+                <input class="govuk-radios__input" id="teachers" name="teachers" type="radio" value="less">
+                <label class="govuk-label govuk-radios__label" for="teachers">
+                  Less than one month
+                </label>
+              </div>
+              <div class="govuk-radios__item">
+                <input class="govuk-radios__input" id="teachers-2" name="teachers" type="radio" value="months">
+                <label class="govuk-label govuk-radios__label" for="teachers-2">
+                  2 to 3 months
+                </label>
+              </div>
+              <div class="govuk-radios__item">
+                <input class="govuk-radios__input" id="teachers-3" name="teachers" type="radio" value="four">
+                <label class="govuk-label govuk-radios__label" for="teachers-3">
+                  4 to 5 months
+                </label>
+              </div>
+              <div class="govuk-radios__item">
+                <input class="govuk-radios__input" id="teachers-4" name="teachers" type="radio" value="over">
+                <label class="govuk-label govuk-radios__label" for="teachers-4">
+                  Over 6 months
+                </label>
+              </div>
+            </div>
+          
+            </div>
+        
+          </fieldset>
+        </div>
+  </div><br>
+
+
+  
+  
+
+          <a href="filled2" class="govuk-button show-continue" style="display: inline;">
+      Continue
+    </a>
+       
+ </div>
+</div>
+</div>
+        
+
+
+
+{% endblock %}
