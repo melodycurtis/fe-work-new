@@ -35,6 +35,17 @@ $(document).ready(function () {
                 
   });
 
+  $("#choice-button").bind("click", function() {
+    if ($('#radio-leader1').is(':checked')) {
+                    window.location.replace("complete-john-four");
+                }
+                else if ($('#radio-leader2').is(':checked')) {
+                    window.location.replace("academic");
+                }
+                
+                
+  });
+
   
 
   
