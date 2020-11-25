@@ -40,7 +40,7 @@ $(document).ready(function () {
                     window.location.replace("complete-john-four");
                 }
                 else if ($('#radio-leader2').is(':checked')) {
-                    window.location.replace("academic");
+                    window.location.replace("complete-john-four");
                 }
                 
                 
