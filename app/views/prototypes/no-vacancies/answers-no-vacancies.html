@@ -1,0 +1,136 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      beta
+    </strong>
+    <span class="govuk-phase-banner__text">
+      This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+    </span>
+  </p>
+</div>
+
+ <div class="govuk-width-container">
+  <a href="#" class="govuk-back-link">Back</a>
+
+{% endblock %}
+
+{% block content %}
+
+
+        
+  <h1 class="govuk-heading-m">Impact Training Limited
+  <span class="govuk-caption-m">UKPRN: 00012345</span></h1>     
+
+  
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds-from-desktop">
+
+        <h1 class="govuk-heading-xl">Check your answers</h1>
+
+        
+
+
+        <h2 class="govuk-heading-m">Vacancies</h2>
+
+        <dl class="govuk-summary-list govuk-!-margin-bottom-9">
+           
+
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Leaders + managers
+            </dt>
+            <dd class="govuk-summary-list__value">
+             0
+            </dd>
+            <dd class="govuk-summary-list__actions">
+              <a class="govuk-link" href="#">
+                Change<span class="govuk-visually-hidden"> address</span>
+              </a>
+            </dd>
+          </div>
+
+
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Teachers
+            </dt>
+            <dd class="govuk-summary-list__value">
+              0
+            </dd>
+            <dd class="govuk-summary-list__actions">
+              <a class="govuk-link" href="#">
+                Change<span class="govuk-visually-hidden"> address</span>
+              </a>
+            </dd>
+          </div>
+
+
+        </dl>
+
+        <h2 class="govuk-heading-m">Staff</h2>
+        
+
+       
+        <dl class="govuk-summary-list govuk-!-margin-bottom-9">
+
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+          Apprentices
+            </dt>
+            <dd class="govuk-summary-list__value">
+              0
+            </dd>
+            <dd class="govuk-summary-list__actions">
+              <a class="govuk-link" href="#">
+                Change
+                <span class="govuk-visually-hidden"> address</span>
+              </a>
+            </dd>
+          </div>
+
+        </dl><br>
+
+
+
+
+
+<h2 class="govuk-heading-m govuk-!-font-size-27">Check and submit</h2>
+
+        <p class="govuk-body">By submitting, you are confirming that to the best of your knowledge, the details you are providing are correct.</p><br>
+
+        <form action="/form-handler" method="post" novalidate>
+
+          <input type="hidden" name="answers-checked" value="true">
+
+          <a href="confirmation-provider" class="govuk-button show-continue">
+         Submit your organisation’s information
+    </a>
+  &nbsp; &nbsp;
+
+    <a href="start-staff"  class="govuk-button govuk-button--secondary">Save and finish later</a>
+
+        </form>
+
+      </div>
+    </div>
+  
+</div>
+
+</fieldset><br>
+
+
+        
+       
+      </div>
+    </div>
+  </main>
+</div>
+
+
+{% endblock %}
