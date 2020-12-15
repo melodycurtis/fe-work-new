@@ -29,12 +29,25 @@
   <span class="govuk-caption-m">UKPRN: 00012345</span></h1><br>
 
   
-        <h1 class="govuk-heading-xl">Tell us about your further education staff
-          <b>
-        <span class="govuk-caption-xl">Academic year 1 August 2020 to 31 July 2021</span></h1>
+  <h1 class="govuk-heading-xl">Tell us about your further education staff
+    <br><br>
+  <span class="govuk-caption-xl">Academic year 1 August 2020 to 31 July 2021</span></h1>
 
         
-        
+  <form action="/form-handler" method="post" novalidate>
+
+    <input type="hidden" name="answers-checked" value="true">
+
+    <a href="many-vacancies" class="govuk-button show-continue">
+   Start a new submission
+</a>
+<!--&nbsp; &nbsp;
+
+<a href="start-staff"  class="govuk-button govuk-button--secondary">Save and finish later</a>-->
+
+  </form> <br>
+
+  <h3 class="govuk-heading-m">Your submitted and saved staff information</h3>
 
         <table class="govuk-table">
           <!-- <caption class="govuk-table__caption">Older versions of the ILR FileMerge tool</caption> -->
@@ -57,14 +70,17 @@
               <td class="govuk-table__cell" scope="row"> </td>
               <td class="govuk-table__cell"></td>
             </tr>
+
             <tr class="govuk-table__row">
               
-              <td class="govuk-table__cell" scope="row"> <a class="browse-list-item-link" a href="list-staff-john-end">Your staff</a>
-                <p class="govuk-body">Continue to create your staff list.</p>
-</td>
-              <td class="govuk-table__cell" scope="row">       </td>
+              <td class="govuk-table__cell" scope="row"><a class="browse-list-item-link" href="list-staff-john-end">Your staff</a>
+                <td class="govuk-table__cell" scope="row"> </td>
+    <td class="govuk-table__cell"><strong class="govuk-tag app-task-list__task-completed" id="eligibility-completed">Saved</strong></td>
+                  
+              <td class="govuk-table__cell" scope="row"> </td>
               <td class="govuk-table__cell"></td>
             </tr>
+            
             
           
           
