@@ -46,6 +46,25 @@ $(document).ready(function () {
                 
   });
 
+  $("#choice-button").bind("click", function() {
+    if ($('#radio-lead1').is(':checked')) {
+                    window.location.replace("leader");
+                }
+                else if ($('#radio-lead2').is(':checked')) {
+                    window.location.replace("qualification-type");
+                }
+                else if ($('#radio-lead3').is(':checked')) {
+                    window.location.replace("qualification-type");
+                }
+                else if ($('#radio-lead4').is(':checked')) {
+                  window.location.replace("qualification-type");
+              }
+              else if ($('#radio-lead5').is(':checked')) {
+                window.location.replace("qualification-type");
+            }
+                
+  });
+
   
 
   
