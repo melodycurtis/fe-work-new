@@ -51,16 +51,16 @@ $(document).ready(function () {
                     window.location.replace("leader");
                 }
                 else if ($('#radio-lead2').is(':checked')) {
-                    window.location.replace("qualification-type");
+                    window.location.replace("complete-john-four");
                 }
                 else if ($('#radio-lead3').is(':checked')) {
                     window.location.replace("qualification-type");
                 }
                 else if ($('#radio-lead4').is(':checked')) {
-                  window.location.replace("qualification-type");
+                  window.location.replace("complete-john-four");
               }
               else if ($('#radio-lead5').is(':checked')) {
-                window.location.replace("qualification-type");
+                window.location.replace("complete-john-four");
             }
                 
   });
