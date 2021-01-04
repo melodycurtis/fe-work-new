@@ -38,11 +38,13 @@
                 What level were the vacancies for?
               </h1>
             </legend>
-          <div id="citizenship-conditional-hint" class="govuk-hint">
+         <!-- <div id="citizenship-conditional-hint" class="govuk-hint">
             Add the number of teacher or training vacancies you had against the level
-            </div>
+            </div>-->
             
             <br><br>
+
+            
 
             <div class="govuk-form-group">
               <fieldset class="govuk-fieldset" aria-describedby="waste-hint">
@@ -54,55 +56,42 @@
                 <!--<div id="waste-hint" class="govuk-hint">
                   Select all that apply.
                 </div>-->
-                <table class="govuk-table">
-                
-                  <thead class="govuk-table__head">
-                    <tr class="govuk-table__row">
-                      <th scope="col" class="govuk-table__header"></th>
-                      <th scope="col" class="govuk-table__header govuk-table__header--numeric"></th>
-                      <th scope="col" class="govuk-table__header govuk-table__header--numeric"></th>
-                    </tr>
-                  </thead>
-                  <tbody class="govuk-table__body">
-                    <tr class="govuk-table__row">
-                      <th scope="row" class="govuk-table__header">Entry level and level 1</th>
-                      <td class="govuk-table__cell govuk-table__cell--numeric"></td>
-                      <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
-                       <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
-                    </tr>
-  
-                    
-  
-                    <tr class="govuk-table__row">
-                      <th scope="row" class="govuk-table__header">Level 2</th>
-                      <td class="govuk-table__cell govuk-table__cell--numeric"></td>
-                      <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
-                       <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
-                    </tr>
-  
-                    <tr class="govuk-table__row">
-                      <th scope="row" class="govuk-table__header">Level 3</th>
-                      <td class="govuk-table__cell govuk-table__cell--numeric"></td>
-                      <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
-                       <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
-                    </tr>
-  
-                    <tr class="govuk-table__row">
-                      <th scope="row" class="govuk-table__header">Level 4 and above</th>
-                      <td class="govuk-table__cell govuk-table__cell--numeric"></td>
-                      <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
-                       <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
-                    </tr>
+                <div class="govuk-form-group">
+                  <fieldset class="govuk-fieldset" aria-describedby="waste-hint">
                    
-  
-                  
-                  </tbody>
-                </table>
+                    <div class="govuk-checkboxes">
+                      <div class="govuk-checkboxes__item">
+                        <input class="govuk-checkboxes__input" id="waste" name="waste" type="checkbox" value="carcasses">
+                        <label class="govuk-label govuk-checkboxes__label" for="waste">
+                          Entry level and level 1
+                        </label>
+                      </div>
+                      <div class="govuk-checkboxes__item">
+                        <input class="govuk-checkboxes__input" id="waste-2" name="waste" type="checkbox" value="mines">
+                        <label class="govuk-label govuk-checkboxes__label" for="waste-2">
+                          Level 2
+                        </label>
+                      </div>
+                      <div class="govuk-checkboxes__item">
+                        <input class="govuk-checkboxes__input" id="waste-3" name="waste" type="checkbox" value="farm">
+                        <label class="govuk-label govuk-checkboxes__label" for="waste-3">
+                          Level 3
+                        </label>
+                      </div>
+
+                      <div class="govuk-checkboxes__item">
+                        <input class="govuk-checkboxes__input" id="waste-3" name="waste" type="checkbox" value="farm">
+                        <label class="govuk-label govuk-checkboxes__label" for="waste-3">
+                          Level 4 and above
+                        </label>
+                      </div>
+                    </div>
+                
+                  </fieldset>
+                </div>
             
               </fieldset>
             </div><br><br>
-
-           
 
             <div class="govuk-form-group">
               <fieldset class="govuk-fieldset" aria-describedby="waste-hint">
@@ -114,59 +103,49 @@
                 <!--<div id="waste-hint" class="govuk-hint">
                   Select all that apply.
                 </div>-->
-                <table class="govuk-table">
+                <div class="govuk-form-group">
+                  <fieldset class="govuk-fieldset" aria-describedby="waste-hint">
+                   
+                    <div class="govuk-checkboxes">
+                      <div class="govuk-checkboxes__item">
+                        <input class="govuk-checkboxes__input" id="waste" name="waste" type="checkbox" value="carcasses">
+                        <label class="govuk-label govuk-checkboxes__label" for="waste">
+                          Entry level and level 1
+                        </label>
+                      </div>
+                      <div class="govuk-checkboxes__item">
+                        <input class="govuk-checkboxes__input" id="waste-2" name="waste" type="checkbox" value="mines">
+                        <label class="govuk-label govuk-checkboxes__label" for="waste-2">
+                          Level 2
+                        </label>
+                      </div>
+                      <div class="govuk-checkboxes__item">
+                        <input class="govuk-checkboxes__input" id="waste-3" name="waste" type="checkbox" value="farm">
+                        <label class="govuk-label govuk-checkboxes__label" for="waste-3">
+                          Level 3
+                        </label>
+                      </div>
+
+                      <div class="govuk-checkboxes__item">
+                        <input class="govuk-checkboxes__input" id="waste-3" name="waste" type="checkbox" value="farm">
+                        <label class="govuk-label govuk-checkboxes__label" for="waste-3">
+                          Level 4 and above
+                        </label>
+                      </div>
+                    </div>
                 
-                  <thead class="govuk-table__head">
-                    <tr class="govuk-table__row">
-                      <th scope="col" class="govuk-table__header"></th>
-                      <th scope="col" class="govuk-table__header govuk-table__header--numeric"></th>
-                      <th scope="col" class="govuk-table__header govuk-table__header--numeric"></th>
-                    </tr>
-                  </thead>
-                  <tbody class="govuk-table__body">
-                    <tr class="govuk-table__row">
-                      <th scope="row" class="govuk-table__header">Entry level and level 1</th>
-                      <td class="govuk-table__cell govuk-table__cell--numeric"></td>
-                      <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
-                       <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
-                    </tr>
-  
-                    
-  
-                    <tr class="govuk-table__row">
-                      <th scope="row" class="govuk-table__header">Level 2</th>
-                      <td class="govuk-table__cell govuk-table__cell--numeric"></td>
-                      <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
-                       <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
-                    </tr>
-  
-                    <tr class="govuk-table__row">
-                      <th scope="row" class="govuk-table__header">Level 3</th>
-                      <td class="govuk-table__cell govuk-table__cell--numeric"></td>
-                      <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
-                       <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
-                    </tr>
-  
-                    <tr class="govuk-table__row">
-                      <th scope="row" class="govuk-table__header">Level 4 and above</th>
-                      <td class="govuk-table__cell govuk-table__cell--numeric"></td>
-                      <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
-                       <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
-                    </tr>
-                    
-  
-                  
-                  </tbody>
-                </table>
+                  </fieldset>
+                </div>
             
               </fieldset>
             </div>
+
           
             </div>
         
           </fieldset>
         </div>
-  </div><br>
+  </div><br><br>
 
 
   
