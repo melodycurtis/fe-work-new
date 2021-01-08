@@ -37,10 +37,10 @@ $(document).ready(function () {
 
   $("#choice-button").bind("click", function() {
     if ($('#radio-leader1').is(':checked')) {
-                    window.location.replace("complete-john-four");
+                    window.location.replace("does-teach");
                 }
                 else if ($('#radio-leader2').is(':checked')) {
-                    window.location.replace("complete-john-four");
+                    window.location.replace("does-teach");
                 }
                 
                 
@@ -51,21 +51,30 @@ $(document).ready(function () {
                     window.location.replace("leader");
                 }
                 else if ($('#radio-lead2').is(':checked')) {
-                    window.location.replace("complete-john-four");
+                    window.location.replace("does-teach");
                 }
                 else if ($('#radio-lead3').is(':checked')) {
                     window.location.replace("qualification-type");
                 }
                 else if ($('#radio-lead4').is(':checked')) {
-                  window.location.replace("complete-john-four");
+                  window.location.replace("does-teach");
               }
               else if ($('#radio-lead5').is(':checked')) {
-                window.location.replace("complete-john-four");
+                window.location.replace("does-teach");
             }
                 
   });
 
-  
+  $("#choice-button").bind("click", function() {
+    if ($('#radio-include1').is(':checked')) {
+                    window.location.replace("qualification-type");
+                }
+                else if ($('#radio-include2').is(':checked')) {
+                    window.location.replace("complete-john-four");
+                }
+                
+                
+  });
 
   
 
