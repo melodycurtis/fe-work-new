@@ -42,9 +42,9 @@
         What is their highest qualification in Maths?
       </h1>
     </legend>
-    <!--<span id="sign-in-hint" class="govuk-hint">
-      You’ll need an account to prove your identity and complete your Self Assessment.
-    </span>--><br>
+    <span id="sign-in-hint" class="govuk-hint">
+     There is an option to answer that you don't know - but you will need to answer it next year. Make sure you collect the answer for next time.
+    </span><br>
     <div class="govuk-radios">
       
       <div class="govuk-radios__item">
@@ -130,6 +130,18 @@
         </span>
         </div>
 
+
+        <div class="govuk-radios__item">
+          <input class="govuk-radios__input" id="sign-in" name="sign-in" type="radio" value="government-gateway" aria-describedby="sign-in-item-hint">
+          <label class="govuk-label govuk-radios__label govuk-label--s" for="sign-in">
+            Don't know
+          </label>
+  
+          <span id="sign-in-item-hint" class="govuk-hint govuk-radios__hint">
+            Make sure you can answer this question next year
+          </span>
+          </div>
+  
 
        <div class="govuk-radios govuk-radios--conditional" data-module="govuk-radios">
       <div class="govuk-radios__item">
