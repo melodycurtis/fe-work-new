@@ -1,0 +1,368 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      prototype
+    </strong>
+    <span class="govuk-phase-banner__text">
+      This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+    </span>
+  </p>
+</div>
+
+ <div class="govuk-width-container">
+  <a href="#" class="govuk-back-link">Back</a>
+
+{% endblock %}
+
+{% block content %}
+
+
+       
+
+<h1 class="govuk-heading-m">Warwickshire college
+  <span class="govuk-caption-m">UKPRN: 00012345</span></h1>   
+
+
+  <main class="govuk-main-wrapper " id="main-content" role="main">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        
+          <div class="govuk-form-group">
+
+            <h1 class="govuk-heading-xl">
+  Add a staff member
+</h1>
+
+            
+<p>Add tempoary staff but not agency workers. Include full and part-time staff. 
+    </p>
+  <div class="govuk-form-group">
+  <label class="govuk-label" for="full-name">
+    First names
+  </label>
+  <input class="govuk-input" id="full-name" name="full-name" type="text" autocomplete="name" spellcheck="false">
+</div>
+
+  
+
+  
+
+  <br>
+
+  <div class="govuk-form-group">
+  <label class="govuk-label" for="full-name">
+    Last name
+  </label>
+  <input class="govuk-input" id="full-name" name="full-name" type="text" autocomplete="name" spellcheck="false">
+</div>
+
+  
+
+  
+
+  <br><br>
+
+  <h2 class="govuk-heading-m">Date of birth</h2>
+
+
+  
+    <span id="dob-hint" class="govuk-hint">
+      For example, 31 3 1980
+    </span>
+    <div class="govuk-date-input" id="dob">
+      <div class="govuk-date-input__item">
+        <div class="govuk-form-group">
+          <label class="govuk-label govuk-date-input__label" for="dob-day">
+            Day
+          </label>
+          <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="dob-day" name="dob-day" type="text" autocomplete="bday-day" pattern="[0-9]*" inputmode="numeric">
+        </div>
+      </div>
+      <div class="govuk-date-input__item">
+        <div class="govuk-form-group">
+          <label class="govuk-label govuk-date-input__label" for="dob-month">
+            Month
+          </label>
+          <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="dob-month" name="dob-month" type="text" autocomplete="bday-month" pattern="[0-9]*" inputmode="numeric">
+        </div>
+      </div>
+      <div class="govuk-date-input__item">
+        <div class="govuk-form-group">
+          <label class="govuk-label govuk-date-input__label" for="dob-year">
+            Year
+          </label>
+          <input class="govuk-input govuk-date-input__input govuk-input--width-4" id="dob-year" name="dob-year" type="text" autocomplete="bday-year" pattern="[0-9]*" inputmode="numeric">
+        </div>
+      </div>
+    </div>
+
+    
+  
+</div>
+
+</fieldset>
+
+<br><br>
+
+<h2 class="govuk-heading-m">Sex</h2>
+
+<fieldset class="govuk-fieldset">
+   
+    <div class="govuk-radios">
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="ethnic-group" name="ethnic-group" type="radio" value="asian-or-asian-british" aria-describedby="ethnic-group-item-hint">
+        <label class="govuk-label govuk-radios__label govuk-label--s" for="ethnic-group">
+          Male
+        </label>
+        <span id="ethnic-group-item-hint" class="govuk-hint govuk-radios__hint">
+          
+        </span>
+      </div>
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="ethnic-group-2" name="ethnic-group" type="radio" value="black-african-black-british-or-caribbean" aria-describedby="ethnic-group-2-item-hint">
+        <label class="govuk-label govuk-radios__label govuk-label--s" for="ethnic-group-2">
+          Female
+        </label>
+        <span id="ethnic-group-2-item-hint" class="govuk-hint govuk-radios__hint">
+          
+        </span>
+      </div>
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="ethnic-group-3" name="ethnic-group" type="radio" value="mixed-or-multiple-ethnic-groups" aria-describedby="ethnic-group-3-item-hint">
+        <label class="govuk-label govuk-radios__label govuk-label--s" for="ethnic-group-3">
+          Other
+        </label>
+        <span id="ethnic-group-3-item-hint" class="govuk-hint govuk-radios__hint">
+          
+        </span>
+      </div>
+      
+      
+      <div class="govuk-radios__divider">or</div>
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="ethnic-group-7" name="ethnic-group" type="radio" value="prefer-not-to-say">
+        <label class="govuk-label govuk-radios__label govuk-label" for="ethnic-group-7">
+          Prefer not to say
+        </label>
+      </div>
+    </div>
+  </fieldset>
+
+  <br><br><br>
+
+
+
+  <fieldset class="govuk-fieldset">
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+      <h2 class="govuk-heading-m">Ethnicity</h2>
+    </legend>
+    <div class="govuk-radios">
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="ethnic-group" name="ethnic-group" type="radio" value="asian-or-asian-british" aria-describedby="ethnic-group-item-hint">
+        <label class="govuk-label govuk-radios__label govuk-label--s" for="ethnic-group">
+          Asian or Asian British
+        </label>
+        <span id="ethnic-group-item-hint" class="govuk-hint govuk-radios__hint">
+          Includes any Asian background, for example, Bangladeshi, Chinese, Indian, Pakistani
+        </span>
+      </div>
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="ethnic-group-2" name="ethnic-group" type="radio" value="black-african-black-british-or-caribbean" aria-describedby="ethnic-group-2-item-hint">
+        <label class="govuk-label govuk-radios__label govuk-label--s" for="ethnic-group-2">
+          Black, African, Black British or Caribbean
+        </label>
+        <span id="ethnic-group-2-item-hint" class="govuk-hint govuk-radios__hint">
+          Includes any Black background
+        </span>
+      </div>
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="ethnic-group-3" name="ethnic-group" type="radio" value="mixed-or-multiple-ethnic-groups" aria-describedby="ethnic-group-3-item-hint">
+        <label class="govuk-label govuk-radios__label govuk-label--s" for="ethnic-group-3">
+          Mixed or multiple ethnic groups
+        </label>
+        <span id="ethnic-group-3-item-hint" class="govuk-hint govuk-radios__hint">
+          Includes any Mixed background
+        </span>
+      </div>
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="ethnic-group-4" name="ethnic-group" type="radio" value="white" aria-describedby="ethnic-group-4-item-hint">
+        <label class="govuk-label govuk-radios__label govuk-label--s" for="ethnic-group-4">
+          White
+        </label>
+        <span id="ethnic-group-4-item-hint" class="govuk-hint govuk-radios__hint">
+          Includes any White background
+        </span>
+      </div>
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="ethnic-group-5" name="ethnic-group" type="radio" value="another-ethnic-group" aria-describedby="ethnic-group-5-item-hint">
+        <label class="govuk-label govuk-radios__label govuk-label--s" for="ethnic-group-5">
+          Another ethnic group
+        </label>
+        <span id="ethnic-group-5-item-hint" class="govuk-hint govuk-radios__hint">
+          Includes any other ethnic group, for example, Arab
+        </span>
+      </div>
+      <div class="govuk-radios__divider">or</div>
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="ethnic-group-7" name="ethnic-group" type="radio" value="prefer-not-to-say">
+        <label class="govuk-label govuk-radios__label govuk-label" for="ethnic-group-7">
+          Prefer not to say
+        </label>
+      </div>
+    </div>
+  </fieldset>
+
+  <br><br><br>
+
+  <fieldset class="govuk-fieldset">
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+      <h2 class="govuk-heading-m">Disability</h2>
+    </legend>
+    <span id="nationality-hint" class="govuk-hint">
+       May be a self-reported long-standing illness, condition or impairment which causes difficulty with day-to-day activities. 
+    </span>
+    <div class="govuk-radios">
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="ethnic-group" name="ethnic-group" type="radio" value="asian-or-asian-british" aria-describedby="ethnic-group-item-hint">
+        <label class="govuk-label govuk-radios__label govuk-label--s" for="ethnic-group">
+          Yes
+        </label>
+        <span id="ethnic-group-item-hint" class="govuk-hint govuk-radios__hint">
+          
+        </span>
+      </div>
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="ethnic-group-2" name="ethnic-group" type="radio" value="black-african-black-british-or-caribbean" aria-describedby="ethnic-group-2-item-hint">
+        <label class="govuk-label govuk-radios__label govuk-label--s" for="ethnic-group-2">
+          No
+        </label>
+        <span id="ethnic-group-2-item-hint" class="govuk-hint govuk-radios__hint">
+          
+        </span>
+      </div>
+      
+      
+      
+      <div class="govuk-radios__divider">or</div>
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="ethnic-group-7" name="ethnic-group" type="radio" value="prefer-not-to-say">
+        <label class="govuk-label govuk-radios__label govuk-label" for="ethnic-group-7">
+          Prefer not to say
+        </label>
+      </div>
+    </div>
+  </fieldset>
+
+
+  <br><br><br>
+
+
+  <fieldset class="govuk-fieldset" aria-describedby="nationality-hint">
+   
+      <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+      <h2 class="govuk-heading-m">Nationality</h2>
+    </legend>
+    
+    <span id="nationality-hint" class="govuk-hint">
+      If you have dual nationality, select all options that are relevant to you.
+    </span>
+    <div class="govuk-checkboxes">
+
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality" name="nationality" type="checkbox" value="british" aria-describedby="nationality-item-hint">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality">
+          English
+        </label>
+        <span id="nationality-item-hint" class="govuk-hint govuk-checkboxes__hint">
+          
+        </span>
+      </div>
+
+
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality" name="nationality" type="checkbox" value="british" aria-describedby="nationality-item-hint">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality">
+          Welsh
+        </label>
+        <span id="nationality-item-hint" class="govuk-hint govuk-checkboxes__hint">
+          
+        </span>
+      </div>
+
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality" name="nationality" type="checkbox" value="british" aria-describedby="nationality-item-hint">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality">
+          Scottish
+        </label>
+        <span id="nationality-item-hint" class="govuk-hint govuk-checkboxes__hint">
+          
+        </span>
+      </div>
+
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality" name="nationality" type="checkbox" value="british" aria-describedby="nationality-item-hint">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality">
+          Northern Irish
+        </label>
+        <span id="nationality-item-hint" class="govuk-hint govuk-checkboxes__hint">
+          
+        </span>
+      </div>
+
+
+
+
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality-2" name="nationality" type="checkbox" value="irish">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality-2">
+          British
+        </label>
+      </div>
+      
+
+      
+      
+     <div class="govuk-checkboxes" data-module="govuk-checkboxes">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="citizenship-conditional" name="citizen" type="checkbox" value="email" data-aria-controls="conditional-citizenship-conditional">
+        <label class="govuk-label govuk-checkboxes__label" for="citizenship-conditional">
+          Other
+        </label>
+      </div>
+      <div class="govuk-checkboxes__conditional govuk-checkboxes__conditional--hidden" id="conditional-citizenship-conditional">
+        <div class="govuk-form-group">
+          <label class="govuk-label" for="contact-by-email">
+            Discribe
+          </label>
+          <input class="govuk-input govuk-!-width-one-third" id="contact-by-email" name="contact-by-email" type="email" spellcheck="false">
+        </div>
+
+      </div>
+
+    </div>
+
+
+    </div>
+
+  
+
+  </fieldset><br><br><br>
+
+
+          <a href="staff-zero1" class="govuk-button show-continue" style="display: inline;">
+      Save and continue
+    </a>
+       
+      </div>
+    </div>
+  </main>
+</div>
+
+
+{% endblock %}
