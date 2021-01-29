@@ -1,0 +1,98 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  
+<div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      beta
+    </strong>
+    <span class="govuk-phase-banner__text">
+      This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+    </span>
+  </p>
+</div>
+
+ 
+  <a href="#" class="govuk-back-link">Back</a>
+{% endblock %}
+
+{% block content %}
+
+
+        
+  
+
+  <span class="govuk-caption-xl">John Adams </span><br>
+
+  <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds-from-desktop">
+            
+
+
+<div class="govuk-form-group">
+  <fieldset class="govuk-fieldset" aria-describedby="waste-hint">
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+      <h1 class="govuk-fieldset__heading">
+        Does John have any teaching responsibilities?
+      </h1>
+    </legend>
+  
+
+  <div class="govuk-form-group">
+    <fieldset class="govuk-fieldset" aria-describedby="sign-in-hint">
+      <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+        
+      </legend>
+     <!--<div id="sign-in-hint" class="govuk-hint">
+        Select the main one
+      </div>-->
+
+      <br>
+      
+      <div class="govuk-radios">
+        <div class="govuk-radios__item">
+          <input class="govuk-radios__input" id="radio-include1" name="teach" type="radio" value="#">
+        <label class="govuk-label govuk-radios__label" for="choose">
+            Yes
+          </label>
+          
+        </div>
+
+        <br>
+
+
+        <div class="govuk-radios__item">
+          <input class="govuk-radios__input" id="radio-include2" name="teach" type="radio" value="govuk-verify" aria-describedby="sign-in-2-item-hint">
+          <label class="govuk-label govuk-radios__label" for="sign-in-2">
+            No
+          </label>
+          
+        </div>
+
+        <br>
+
+
+        
+
+        
+      </div>
+  
+    </fieldset>
+  </div><br><br>
+
+
+  <a href="#" class="govuk-button show-continue" id ="choice-button" style="display: inline;">
+    Continue
+  </a>
+       
+      </div>
+    </div>
+  
+</div>
+
+
+{% endblock %}
