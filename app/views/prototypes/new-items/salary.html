@@ -37,7 +37,7 @@
           <div class="govuk-form-group">
             <h1 class="govuk-label-wrapper"><label class="govuk-label govuk-label--xl" for="postcode">
                 What was their salary?
-              </label><br>
+              </label>
               
               <span class="govuk-caption-xl">Academic year 1 August 2020 to 31 July 2021</span></h1>
               <span id="sort-code-hint" class="govuk-hint"><br><br>
@@ -46,7 +46,27 @@
 
             </h1>
             <input class="govuk-input govuk-input--width-10" id="postcode" name="postcode" type="text" (£)>
-          </div>
+          </div><br><br></form>
+
+          <form action="/form-handler" method="post" novalidate>
+            <div class="govuk-form-group">
+              <h1 class="govuk-label-wrapper"><label class="govuk-label govuk-label--l" for="postcode">
+                Or what was their hourly rate of pay?
+                </label>
+                
+                </h1>
+                <span id="sort-code-hint" class="govuk-hint"><br><br>
+      For example, £20.30
+    </span>
+  
+              </h1>
+              <input class="govuk-input govuk-input--width-10" id="postcode" name="postcode" type="text" (£)>
+            </div><br><br></form>
+  
+
+          
+
+          
 
           <a href="contracted-hours" class="govuk-button show-continue" style="display: inline;">
       Continue
