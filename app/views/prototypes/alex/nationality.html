@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      prototype
+    </strong>
+    
+  </p>
+</div>
+<a href="#" class="govuk-back-link">Back</a>
+
+{% endblock %}
+
+{% block content %} 
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+      
+  <h1 class="govuk-heading-m">Warwickshire college
+  <span class="govuk-caption-m">UKPRN: 00012345</span></h1>
+        
+          <div class="govuk-form-group">
+
+            <h1 class="govuk-heading-xl">
+              What is the nationaity of your governors?</h1>
+            <span id="nationality-hint" class="govuk-hint">
+              Enter the numbers
+           </span>
+
+<ul class="browse-list">
+
+  <div class="govuk-form-group">
+    <label class="govuk-label" for="postcode">
+      British
+    </label>
+    <input class="govuk-input govuk-input--width-10" id="postcode" name="postcode" type="text" autocomplete="postal-code"></div>
+    
+    <div class="govuk-form-group">
+      <label class="govuk-label" for="postcode">
+        EU, including Irish
+      </label>
+      <input class="govuk-input govuk-input--width-10" id="postcode" name="postcode" type="text" autocomplete="postal-code"></div>
+    
+      <div class="govuk-form-group">
+        <label class="govuk-label" for="postcode">
+          Rest of the world
+
+        </label>
+        <input class="govuk-input govuk-input--width-10" id="postcode" name="postcode" type="text" autocomplete="postal-code"></div>
+    
+        
+              
+</ul><br><br>
+
+          <a href="time" class="govuk-button show-continue" style="display: inline;">
+      Continue
+    </a><br>
+       
+      </div>
+    </div>
+ 
+</div>
+
+
+{% endblock %}
