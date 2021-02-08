@@ -1,0 +1,78 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      prototype
+    </strong>
+    
+  </p>
+</div>
+<a href="#" class="govuk-back-link">Back</a>
+
+{% endblock %}
+
+{% block content %} 
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+      
+  <h1 class="govuk-heading-m">Warwickshire college
+  <span class="govuk-caption-m">UKPRN: 00012345</span></h1>
+        
+          <div class="govuk-form-group">
+
+            <h1 class="govuk-heading-xl">
+  How many governors - by gender?
+            </h1>
+
+            <p class="govuk-body">Enter the number of governors in each catagory.</p>
+
+<table class="govuk-table">
+                
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header"></th>
+      <th scope="col" class="govuk-table__header govuk-table__header--numeric"></th>
+      <th scope="col" class="govuk-table__header govuk-table__header--numeric"></th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    <tr class="govuk-table__row">
+      <th scope="row" class="govuk-table__header">Male</th>
+      <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+      <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+       <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+    </tr>
+
+    <tr class="govuk-table__row">
+      <th scope="row" class="govuk-table__header">Female
+      </th>
+      <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+      <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+       <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+    </tr>
+
+    <tr class="govuk-table__row">
+      <th scope="row" class="govuk-table__header">Identifies in another way</th>
+      <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+      <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+       <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+    </tr>
+  </tbody>
+</table>
+
+          <a href="age" class="govuk-button show-continue" style="display: inline;">
+      Continue
+    </a><br>
+       
+      </div>
+    </div>
+ 
+</div>
+
+
+{% endblock %}
