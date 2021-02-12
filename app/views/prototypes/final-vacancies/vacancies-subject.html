@@ -1,0 +1,596 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      beta
+    </strong>
+    <span class="govuk-phase-banner__text">
+      This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+    </span>
+  </p>
+</div>
+
+ <div class="govuk-width-container">
+  <a href="#" class="govuk-back-link">Back</a>
+
+{% endblock %}
+
+{% block content %}
+
+
+
+  <h1 class="govuk-heading-m">Impact Training Limited
+  <span class="govuk-caption-m">UKPRN: 00012345</span></h1>
+
+
+  <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+
+        <div class="govuk-form-group">
+          <fieldset class="govuk-fieldset" aria-describedby="citizenship-conditional-hint">
+            <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+              <h1 class="govuk-fieldset__heading">
+                How many teaching vacancies did you have - by subject?
+              </h1>
+            </legend>
+            <div id="citizenship-conditional-hint" class="govuk-hint">
+            Add the teacher vacancies you had - next to their subjects in the list
+            </div>
+            
+            <br><br>
+
+            <div class="govuk-accordion" data-module="govuk-accordion" id="accordion-with-summary-sections">
+              <div class="govuk-accordion__section ">
+                <div class="govuk-accordion__section-header">
+                  <h2 class="govuk-accordion__section-heading">
+                    <span class="govuk-accordion__section-button" id="accordion-with-summary-sections-heading-1">
+                      Academic
+                    </span>
+                  </h2>
+                  <div class="govuk-accordion__section-summary govuk-body" id="accordion-with-summary-sections-summary-1">
+                    A levels and GCSEs
+                  </div>
+                </div>
+                <div id="accordion-with-summary-sections-content-1" class="govuk-accordion__section-content" aria-labelledby="accordion-with-summary-sections-heading-1">
+                  <table class="govuk-table">
+                
+                    <thead class="govuk-table__head">
+                      <tr class="govuk-table__row">
+                        <th scope="col" class="govuk-table__header">Subjects</th>
+                        <th scope="col" class="govuk-table__header govuk-table__header--numeric"></th>
+                        <th scope="col" class="govuk-table__header govuk-table__header--numeric">Number of vacancies</th>
+                      </tr>
+                    </thead>
+                    <tbody class="govuk-table__body">
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__cell">Ancient languages</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                         <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+    
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__cell">Archaeology</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                         <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+    
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__cell">Astronomy</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                         <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+    
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Art and Design, History of Art</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                         <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+    
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Accounting, Business and Economics</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                         <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Biology</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Chemistry</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+    
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Citizenship studies</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Classical studies</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+                      
+    
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Computer science</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Dance, drama and theatre</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Design, technology and engineering</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Electronics</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">English</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Environmental science</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Film and media studies</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Food preparation and nutrition</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Geography</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Geology</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">History</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Mathematics</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Modern foreign languages</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Music</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Physical education</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Philosophy</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Physics</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Politics</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Psychology</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Religious studies</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Sociology</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+    
+                    
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="govuk-accordion__section ">
+                <div class="govuk-accordion__section-header">
+                  <h2 class="govuk-accordion__section-heading">
+                    <span class="govuk-accordion__section-button" id="accordion-with-summary-sections-heading-2">
+                      Vocational
+                    </span>
+                  </h2>
+                  <div class="govuk-accordion__section-summary govuk-body" id="accordion-with-summary-sections-summary-2">
+                    T levels, apprenticeship programmes
+                  </div>
+                </div>
+                <div id="accordion-with-summary-sections-content-2" class="govuk-accordion__section-content" aria-labelledby="accordion-with-summary-sections-heading-2">
+                  <table class="govuk-table">
+                
+                    <thead class="govuk-table__head">
+                      <tr class="govuk-table__row">
+                        <th scope="col" class="govuk-table__header"></th>
+                        <th scope="col" class="govuk-table__header govuk-table__header--numeric"></th>
+                        <th scope="col" class="govuk-table__header govuk-table__header--numeric"></th>
+                      </tr>
+                    </thead>
+                    <tbody class="govuk-table__body">
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Accounting and Finance</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                         <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+    
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Agriculture and Horticulture</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                         <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+    
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Animal Care</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                         <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+    
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Business Management and Administration</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                         <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+    
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Catering and Hospitality
+                        </th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                         <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Construction, Planning and the Built Environment</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Crafts, Creative Arts and Design</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+    
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Design, Engineering and Manufacturing</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+    
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Digital / ICT
+                        </th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Education and Childcare</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Education and Training
+                        </th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Environmental
+                        </th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Hair, Beauty and Aesthetics
+                        </th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Health, Public Services and Care
+                        </th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Law and Legal Services
+                        </th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Media, Broadcast and Production
+                        </th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Performing Arts
+                        </th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Retail and Commercial Enterprise
+                        </th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Science
+                        </th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Sport, Leisure and Recreation
+                        </th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Transport and Logistics
+
+                        </th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Travel and Tourism
+                        </th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      
+    
+                    
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="govuk-accordion__section ">
+                <div class="govuk-accordion__section-header">
+                  <h2 class="govuk-accordion__section-heading">
+                    <span class="govuk-accordion__section-button" id="accordion-with-summary-sections-heading-3">
+                      Other
+                  </h2>
+                  <div class="govuk-accordion__section-summary govuk-body" id="accordion-with-summary-sections-summary-3">
+                    Functional skills, SEN
+                  </div>
+                </div>
+                <div id="accordion-with-summary-sections-content-3" class="govuk-accordion__section-content" aria-labelledby="accordion-with-summary-sections-heading-3">
+                  <table class="govuk-table">
+                
+                    <thead class="govuk-table__head">
+                      <tr class="govuk-table__row">
+                        <th scope="col" class="govuk-table__header"></th>
+                        <th scope="col" class="govuk-table__header govuk-table__header--numeric"></th>
+                        <th scope="col" class="govuk-table__header govuk-table__header--numeric"></th>
+                      </tr>
+                    </thead>
+                    <tbody class="govuk-table__body">
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Functional Skills (English, Maths and IT)</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                         <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+    
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Life Skills</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                         <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+    
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Preparation for Work</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                         <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+    
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Supported Learning or Special Educational Needs learning provision</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                         <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+    
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">ESOL</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                         <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Community Learning</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+
+                      <tr class="govuk-table__row">
+                        <th scope="row" class="govuk-table__header">Family Learning</th>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"></td>
+                        <td class="govuk-table__cell govuk-table__cell--numeric"><div class="govuk-form-group">
+                          <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text"></div></td>
+                      </tr>
+                      
+    
+                    
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              
+            </div>
+
+          
+            </div>
+        
+          </fieldset>
+
+          <div class="govuk-form-group">
+            <fieldset class="govuk-fieldset" aria-describedby="waste-hint">
+             
+              <div class="govuk-checkboxes">
+                <div class="govuk-checkboxes__item">
+                  <input class="govuk-checkboxes__input" id="waste" name="waste" type="checkbox" value="carcasses">
+                  <label class="govuk-label govuk-checkboxes__label" for="waste">
+                    We didn't have any teacher vacancies this year
+                  </label>
+                </div>
+                
+                
+              </div>
+          
+            </fieldset>
+          </div><br><br>
+        
+
+
+  
+  
+
+          <a href="filled-or" class="govuk-button show-continue" style="display: inline;">
+      Continue
+    </a>
+       
+ </div>
+</div>
+</div>
+        
+
+
+
+{% endblock %}
