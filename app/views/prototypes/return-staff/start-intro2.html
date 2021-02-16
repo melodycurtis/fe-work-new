@@ -1,0 +1,61 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      prototype
+    </strong>
+    
+  </p>
+</div>
+
+{% endblock %}
+
+{% block content %}
+
+      
+
+  <main class="govuk-main-wrapper " id="main-content" role="main">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <h1 class="govuk-heading-xl">
+            Submit learner data
+          </h1>
+        <p class="govuk-body-l">This service is for training providers that receive funding directly from the Education and Skills Funding Agency.</p>
+        <p>Use this service to validate and submit:</p>
+        <ul class="govuk-list govuk-list--bullet">
+          <li>Individualised learner records (ILR)</li>
+          <li>Earnings adjustment statements (EAS)</li>
+          <li>European Social Fund supplementary data (ESF)</li>
+              <li>Funding claims</li>
+              <li>FE workforce data</li>
+              <li>Governor data</li>
+        </ul>
+        <p>You can also view and download reports for your data.</p>
+        <a href="details" role="button" class="govuk-button govuk-button--start">
+      Sign in
+    </a>
+            <h2 class="govuk-heading-m">Before you start</h2>
+        <p>You will need:</p>
+        <ul class="govuk-list govuk-list--bullet">
+          <li>your IdAMS (Information Management Services system) login details</li>
+          <li>an XML or Zip file to upload - for ILR data</li>
+          <li>a CSV file to upload - for EAS and ESF data</li>
+        </ul>
+        </div>
+    </div>
+  </div>
+  
+  <div>
+
+      
+    </div>
+  </main>
+
+
+{% endblock %}

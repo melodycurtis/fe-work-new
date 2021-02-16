@@ -1,0 +1,87 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      beta
+    </strong>
+    <span class="govuk-phase-banner__text">
+      This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+    </span>
+  </p>
+</div>
+
+ <div class="govuk-width-container">
+  <a href="#" class="govuk-back-link">Back</a>
+
+{% endblock %}
+
+{% block content %}
+
+
+
+  <h1 class="govuk-heading-m">Impact Training Limited
+  <span class="govuk-caption-m">UKPRN: 00012345</span></h1>
+
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+
+        <div class="govuk-form-group">
+          <fieldset class="govuk-fieldset" aria-describedby="citizenship-conditional-hint">
+            <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+              <h1 class="govuk-fieldset__heading">
+                Start a new submission
+              </h1>
+            </legend>
+           <p>You have a saved session that hasn't been submitted.<br>
+
+            If you start a new one, your saved information will be deleted. Or, you can continue to edit your saved session.</p>
+            
+            <br>
+
+            
+            <div class="govuk-form-group">
+                    <fieldset class="govuk-fieldset">
+                      
+
+
+                      <div class="govuk-radios">
+                        <div class="govuk-radios__item">
+                          <input class="govuk-radios__input" id="teachers" name="teachers" type="radio" value="less">
+                          <label class="govuk-label govuk-radios__label" for="teachers">
+                            Start a new collection and delete your saved one
+                          </label>
+                        </div>
+                        <div class="govuk-radios__item">
+                          <input class="govuk-radios__input" id="teachers-2" name="teachers" type="radio" value="months">
+                          <label class="govuk-label govuk-radios__label" for="teachers-2">
+                            Continue with the saved session
+                          </label>
+                        </div>
+                        
+                  
+                    </fieldset>
+                  </div>
+                     <br><br>
+
+                    
+  </div>
+
+
+          <a href="mis" class="govuk-button show-continue" style="display: inline;">
+      Continue
+    </a>
+       
+ </div>
+</div>
+</div>
+        
+
+
+
+{% endblock %}
