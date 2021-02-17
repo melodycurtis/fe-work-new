@@ -36,47 +36,42 @@
         <form action="/form-handler" method="post" novalidate>
           <div class="govuk-form-group">
             <h1 class="govuk-label-wrapper"><label class="govuk-label govuk-label--xl" for="postcode">
-                What is their annual salary?
+                What was their annual leave entitlement?
               </label>
               
-              <!--<span class="govuk-caption-xl">Academic year 1 August 2020 to 31 July 2021</span></h1>-->
+              <span class="govuk-caption-xl">Academic year 1 August 2020 to 31 July 2021</span></h1>
               <span id="sort-code-hint" class="govuk-hint"><br><br>
-    For example, £26,386
+    For example, 19 days
   </span>
 
             </h1>
             <input class="govuk-input govuk-input--width-10" id="postcode" name="postcode" type="text" (£)>
           </div><br></form>
 
-          <details class="govuk-details" data-module="govuk-details">
-            <summary class="govuk-details__summary">
-              <span class="govuk-details__summary-text">
-                If they get paid by the hour
-              </span>
-            </summary>
-            <div class="govuk-details__text">
-              <form action="/form-handler" method="post" novalidate>
-                <div class="govuk-form-group">
-                  <h2 class="govuk-label-wrapper"><label class="govuk-label govuk-label--m" for="postcode">
-                      What is their hourly rate?
-                    </label>
-                    
-
-                    <span id="sort-code-hint" class="govuk-hint"><br>
-          For example, £20.30
-        </span>
+  
+<div class="govuk-form-group">
+  <fieldset class="govuk-fieldset" aria-describedby="waste-hint">
+   
+    <div class="govuk-checkboxes">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste" name="waste" type="checkbox" value="carcasses">
+        <label class="govuk-label govuk-checkboxes__label" for="waste">
+          They don't get annual leave entitlement
+        </label>
+      </div>
       
-                  </h1>
-                  <input class="govuk-input govuk-input--width-10" id="postcode" name="postcode" type="text" (£)>
-                </div></form></div>
-          </details><br>
+      
+    </div>
+
+  </fieldset>
+</div><br>
   
 
           
 
           
 
-          <a href="contracted-hours" class="govuk-button show-continue" style="display: inline;">
+          <a href="date" class="govuk-button show-continue" style="display: inline;">
       Continue
     </a>
         </form>
