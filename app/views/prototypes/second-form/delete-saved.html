@@ -1,0 +1,77 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      beta
+    </strong>
+    <span class="govuk-phase-banner__text">
+      This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+    </span>
+  </p>
+</div>
+
+ <div class="govuk-width-container">
+  <a href="#" class="govuk-back-link">Back</a>
+
+{% endblock %}
+
+{% block content %}
+
+
+
+  <h1 class="govuk-heading-m">Impact Training Limited
+  <span class="govuk-caption-m">UKPRN: 00012345</span></h1>
+
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+
+        <div class="govuk-form-group">
+          <fieldset class="govuk-fieldset" aria-describedby="citizenship-conditional-hint">
+            <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+              <h1 class="govuk-fieldset__heading">
+                Delete your saved session
+              </h1>
+            </legend>
+           <p>Delete permanently. This action does not delete any submission you've already submitted.</p>
+            
+          
+
+            <div class="govuk-inset-text">
+              Last action: Staff: 09/08/2021 - 11:15AM
+
+            </div>
+            
+
+                    
+  </div>
+
+  <form action="/form-handler" method="post" novalidate>
+
+    <input type="hidden" name="answers-checked" value="true">
+
+    <a href="start-staff" class="govuk-button show-continue">
+Delete
+</a>
+
+&nbsp; &nbsp;
+
+<a href="start-staff"  class="govuk-button govuk-button--secondary">Cancel</a>
+
+  
+
+  </form>
+       
+ </div>
+</div>
+</div>
+        
+
+
+
+{% endblock %}
