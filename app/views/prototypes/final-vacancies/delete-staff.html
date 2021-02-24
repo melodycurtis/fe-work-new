@@ -1,0 +1,77 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      beta
+    </strong>
+    <span class="govuk-phase-banner__text">
+      This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+    </span>
+  </p>
+</div>
+
+ <div class="govuk-width-container">
+  <a href="#" class="govuk-back-link">Back</a>
+
+{% endblock %}
+
+{% block content %}
+
+
+
+  <h1 class="govuk-heading-m">Impact Training Limited
+  <span class="govuk-caption-m">UKPRN: 00012345</span></h1>
+
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+
+        <div class="govuk-form-group">
+          <fieldset class="govuk-fieldset" aria-describedby="citizenship-conditional-hint">
+            <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+              <h1 class="govuk-fieldset__heading">
+                Delete John Adams
+              </h1>
+            </legend>
+           <br>
+            
+          
+
+            <p>
+              Are you sure you want to permenantly delete this staff member?
+
+            </p>
+            
+
+                    
+  </div>
+
+  
+
+  <form>
+
+    <button class="govuk-button govuk-button--warning"  data-module="govuk-button">
+      Delete
+    </button>
+
+&nbsp; &nbsp;
+
+<a href="staff-zero"  class="govuk-button govuk-button--secondary">Cancel</a>
+
+  
+
+  </form>
+       
+ </div>
+</div>
+</div>
+        
+
+
+
+{% endblock %}
